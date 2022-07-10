@@ -20,7 +20,7 @@ export class OrbitCountsComponent implements OnInit {
 	let count = 0;
 	if (this.satellites) {
 	  for (let i = 0; i < this.satellites.length; i++) {
-		 console.log(this.satellites[i].type, "right here !", this.displayList)
+		 console.log(this.satellites[i].type, "right here !")
 		 if (this.satellites[i].type === type) {
 			count++;
 		 }
